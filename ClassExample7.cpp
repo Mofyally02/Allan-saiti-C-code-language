@@ -6,12 +6,11 @@ using namespace std;
 int main(){
     //declare variable
 
-    int i,n, sum=0;
+    int i, sum=0;
 
 
-    // Decrement form 10 to 1
+    // Add numbers from 1 to 10
     for(i=1; i<=10;i++){
-       /* cout<<"Hello There\n"<<i; */
        cout<<i<<" ";
        sum=sum+i;
     }
